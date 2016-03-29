@@ -1,0 +1,90 @@
+@import 'octicons.css';
+
+a.navbar-brand {
+  float: left;
+  display: inline-block;
+  width: 216px;
+  height: 27px;
+  margin-top: 12px;
+  margin-left: -10px !important;
+  background: url(../images/logos/lfe-logo-site-brand.png) 0 0 no-repeat;
+}
+
+center-block {
+    float: none;
+}
+
+.highlight-module-group {
+    width: 100%;
+    background-color: #343530;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #222;
+    border-right: 0;
+    border-left: 1;
+}
+
+.highlight-module {
+  list-style-type: none;
+  display: table-cell;
+  padding: 40px 14px 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+.highlight-module p {
+  font-size: 150% !important;
+  line-height: 1.5em;
+}
+
+.highlight-module h2 {
+  font-size: 250%;
+  color: #fc0;
+}
+
+.highlight-module h2 a {
+  color: #fc0;
+}
+
+.highlight-module code {
+  color: #fc0;
+  background-color: transparent;
+}
+
+.highlight-module .mega-octicon {
+  font-size: 70px;
+  width: 70px;
+  height: 70px;
+  color: #ccc;
+}
+
+.landing-doc-cats {
+    font-size: 120%;
+}
+
+.landing-doc-cats ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.landing-doc-cats p, .landing-doc-cats a {
+    font-size: 120%;
+}
+
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
